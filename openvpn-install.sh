@@ -219,7 +219,7 @@ else
 		rm -rf /etc/openvpn/easy-rsa/
 	fi
 	# Get easy-rsa
-	wget -O ~/EasyRSA-3.0.4.tgz "https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.4/EasyRSA-3.0.4.tgz"
+	wget -O ~/EasyRSA-3.0.4.tgz "https://github.com/bahama365/OpenVPN/raw/master/EasyRSA-3.0.4.tgz"
 	tar xzf ~/EasyRSA-3.0.4.tgz -C ~/
 	mv ~/EasyRSA-3.0.4/ /etc/openvpn/
 	mv /etc/openvpn/EasyRSA-3.0.4/ /etc/openvpn/easy-rsa/
